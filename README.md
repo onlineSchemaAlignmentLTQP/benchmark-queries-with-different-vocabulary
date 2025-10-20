@@ -62,5 +62,5 @@ interactive-short-2: imageFile replace to imageLocation
 interactive-short-3: lastName replace to familyName, creationDate creationTime
 interactive-short-4: vocabulary version 2
 interactive-short-5: id for identification, lastName replace to familyName
-interactive-short-6: nothing
-interactive-short-7: nothing
+interactive-short-6: title for forumTitle
+interactive-short-7: content changed for text

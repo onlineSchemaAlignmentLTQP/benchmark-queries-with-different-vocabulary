@@ -1,0 +1,5 @@
+@prefix snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+snvoc:lastName skos:closeMatch snvoc:familyName.
+snvoc:creationDate skos:closeMatch snvoc:creationTime.

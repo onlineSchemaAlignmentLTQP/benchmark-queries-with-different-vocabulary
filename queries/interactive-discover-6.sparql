@@ -1,6 +1,6 @@
 PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
 SELECT DISTINCT ?forumId ?forumTitle WHERE {
-  ?message snvoc:FromAuthor <http://localhost:3000/pods/00000000000000000933/profile/card#me>.
+  ?message snvoc:fromAuthor <http://localhost:3000/pods/00000000000000000933/profile/card#me>.
   ?forum snvoc:containerOf ?message;
     snvoc:id ?forumId;
     snvoc:title ?forumTitle.
@@ -8,7 +8,7 @@ SELECT DISTINCT ?forumId ?forumTitle WHERE {
 
 PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
 SELECT DISTINCT ?forumId ?forumTitle WHERE {
-  ?message snvoc:FromAuthor <http://localhost:3000/pods/00000000000000001129/profile/card#me>.
+  ?message snvoc:fromAuthor <http://localhost:3000/pods/00000000000000001129/profile/card#me>.
   ?forum snvoc:containerOf ?message;
     snvoc:id ?forumId;
     snvoc:title ?forumTitle.
@@ -16,7 +16,7 @@ SELECT DISTINCT ?forumId ?forumTitle WHERE {
 
 PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
 SELECT DISTINCT ?forumId ?forumTitle WHERE {
-  ?message snvoc:FromAuthor <http://localhost:3000/pods/00000002199023256684/profile/card#me>.
+  ?message snvoc:fromAuthor <http://localhost:3000/pods/00000002199023256684/profile/card#me>.
   ?forum snvoc:containerOf ?message;
     snvoc:id ?forumId;
     snvoc:title ?forumTitle.
@@ -24,7 +24,7 @@ SELECT DISTINCT ?forumId ?forumTitle WHERE {
 
 PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
 SELECT DISTINCT ?forumId ?forumTitle WHERE {
-  ?message snvoc:FromAuthor <http://localhost:3000/pods/00000004398046512167/profile/card#me>.
+  ?message snvoc:fromAuthor <http://localhost:3000/pods/00000004398046512167/profile/card#me>.
   ?forum snvoc:containerOf ?message;
     snvoc:id ?forumId;
     snvoc:title ?forumTitle.
@@ -32,7 +32,7 @@ SELECT DISTINCT ?forumId ?forumTitle WHERE {
 
 PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
 SELECT DISTINCT ?forumId ?forumTitle WHERE {
-  ?message snvoc:FromAuthor <http://localhost:3000/pods/00000006597069767117/profile/card#me>.
+  ?message snvoc:fromAuthor <http://localhost:3000/pods/00000006597069767117/profile/card#me>.
   ?forum snvoc:containerOf ?message;
     snvoc:id ?forumId;
     snvoc:title ?forumTitle.

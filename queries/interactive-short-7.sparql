@@ -8,7 +8,7 @@ SELECT ?commentId ?commentContent ?commentCreationDate ?replyAuthorId ?replyAuth
   ?comment snvoc:replyOf <http://localhost:3000/pods/00000000000000000933/posts/2012-09-09#1099511627871>;
     rdf:type snvoc:Comment;
     snvoc:id ?commentId;
-    snvoc:content ?commentContent;
+    snvoc:text ?commentContent;
     snvoc:creationDate ?commentCreationDate;
     snvoc:hasCreator ?replyAuthor.
   ?replyAuthor snvoc:id ?replyAuthorId;
@@ -31,7 +31,7 @@ SELECT ?commentId ?commentContent ?commentCreationDate ?replyAuthorId ?replyAuth
   ?comment snvoc:replyOf <http://localhost:3000/pods/00000000000000000933/posts/2012-08-31#1030792151124>;
     rdf:type snvoc:Comment;
     snvoc:id ?commentId;
-    snvoc:content ?commentContent;
+    snvoc:text ?commentContent;
     snvoc:creationDate ?commentCreationDate;
     snvoc:hasCreator ?replyAuthor.
   ?replyAuthor snvoc:id ?replyAuthorId;
@@ -55,7 +55,7 @@ SELECT ?commentId ?commentContent ?commentCreationDate ?replyAuthorId ?replyAuth
   ?comment snvoc:replyOf sn:comm00000000412316860443;
     rdf:type snvoc:Comment;
     snvoc:id ?commentId;
-    snvoc:content ?commentContent;
+    snvoc:text ?commentContent;
     snvoc:creationDate ?commentCreationDate;
     snvoc:hasCreator ?replyAuthor.
   ?replyAuthor snvoc:id ?replyAuthorId;
@@ -78,7 +78,7 @@ SELECT ?commentId ?commentContent ?commentCreationDate ?replyAuthorId ?replyAuth
   ?comment snvoc:replyOf <http://localhost:3000/pods/00000000000000000933/posts/2012-04-25#893353197642>;
     rdf:type snvoc:Comment;
     snvoc:id ?commentId;
-    snvoc:content ?commentContent;
+    snvoc:text ?commentContent;
     snvoc:creationDate ?commentCreationDate;
     snvoc:hasCreator ?replyAuthor.
   ?replyAuthor snvoc:id ?replyAuthorId;
@@ -101,7 +101,7 @@ SELECT ?commentId ?commentContent ?commentCreationDate ?replyAuthorId ?replyAuth
   ?comment snvoc:replyOf <http://localhost:3000/pods/00000000000000000933/posts/2011-04-07#481036337199>;
     rdf:type snvoc:Comment;
     snvoc:id ?commentId;
-    snvoc:content ?commentContent;
+    snvoc:text ?commentContent;
     snvoc:creationDate ?commentCreationDate;
     snvoc:hasCreator ?replyAuthor.
   ?replyAuthor snvoc:id ?replyAuthorId;

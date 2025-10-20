@@ -9,7 +9,7 @@ SELECT ?forumId ?forumTitle ?moderatorId ?moderatorFirstName ?moderatorLastName 
   BIND(COALESCE(?originalPostInner, <http://localhost:3000/pods/00000010995116278291/comments/Germany#412316860445>) AS ?originalPost)
   ?forum snvoc:containerOf ?originalPost;
     snvoc:id ?forumId;
-    snvoc:title ?forumTitle;
+    snvoc:forumTitle ?forumTitle;
     snvoc:hasModerator ?moderator.
   ?moderator snvoc:id ?moderatorId;
     snvoc:firstName ?moderatorFirstName;
@@ -27,7 +27,7 @@ SELECT ?forumId ?forumTitle ?moderatorId ?moderatorFirstName ?moderatorLastName 
   BIND(COALESCE(?originalPostInner, <http://localhost:3000/pods/00000000000000000933/posts/2012-08-31#1030792151118>) AS ?originalPost)
   ?forum snvoc:containerOf ?originalPost;
     snvoc:id ?forumId;
-    snvoc:title ?forumTitle;
+    snvoc:forumTitle ?forumTitle;
     snvoc:hasModerator ?moderator.
   ?moderator snvoc:id ?moderatorId;
     snvoc:firstName ?moderatorFirstName;
@@ -45,7 +45,7 @@ SELECT ?forumId ?forumTitle ?moderatorId ?moderatorFirstName ?moderatorLastName 
   BIND(COALESCE(?originalPostInner, <http://localhost:3000/pods/00000000000000000933/posts/2011-04-07#481036337198>) AS ?originalPost)
   ?forum snvoc:containerOf ?originalPost;
     snvoc:id ?forumId;
-    snvoc:title ?forumTitle;
+    snvoc:forumTitle ?forumTitle;
     snvoc:hasModerator ?moderator.
   ?moderator snvoc:id ?moderatorId;
     snvoc:firstName ?moderatorFirstName;
@@ -63,7 +63,7 @@ SELECT ?forumId ?forumTitle ?moderatorId ?moderatorFirstName ?moderatorLastName 
   BIND(COALESCE(?originalPostInner, <http://localhost:3000/pods/00000000000000000933/posts/2011-12-16#755914244159>) AS ?originalPost)
   ?forum snvoc:containerOf ?originalPost;
     snvoc:id ?forumId;
-    snvoc:title ?forumTitle;
+    snvoc:forumTitle ?forumTitle;
     snvoc:hasModerator ?moderator.
   ?moderator snvoc:id ?moderatorId;
     snvoc:firstName ?moderatorFirstName;
@@ -82,7 +82,7 @@ SELECT ?forumId ?forumTitle ?moderatorId ?moderatorFirstName ?moderatorLastName 
   BIND(COALESCE(?originalPostInner, sn:comm00000001030792151054) AS ?originalPost)
   ?forum snvoc:containerOf ?originalPost;
     snvoc:id ?forumId;
-    snvoc:title ?forumTitle;
+    snvoc:forumTitle ?forumTitle;
     snvoc:hasModerator ?moderator.
   ?moderator snvoc:id ?moderatorId;
     snvoc:firstName ?moderatorFirstName;

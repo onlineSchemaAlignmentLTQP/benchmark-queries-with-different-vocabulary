@@ -1,0 +1,9 @@
+@prefix snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>.
+@prefix exvoc: <http://localhost:3000/www.example.com/vocabulary/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+snvoc:hasCreator owl:sameAs exvoc:hasCreator.
+snvoc:containerOf owl:sameAs exvoc:containerOf.
+snvoc:hasModerator owl:sameAs exvoc:hasModerator.
+snvoc:firstName owl:sameAs exvoc:firstName.
+snvoc:lastName owl:sameAs exvoc:lastName.

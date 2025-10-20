@@ -1,0 +1,11 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix snvocv1: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>.
+@prefix snvocv2: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/2.0/vocabulary/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix person: <https://www.w3.org/ns/person#>.
+
+snvocv1:hasCreator owl:sameAs snvocv2:hasCreator.
+snvocv1:Comment owl:sameAs snvocv2:Comment.
+snvocv1:isLocatedIn owl:sameAs snvocv2:isLocatedIn.
+foaf:name skos:closeMatch person:patronymicName.

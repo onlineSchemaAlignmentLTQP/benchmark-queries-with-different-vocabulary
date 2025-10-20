@@ -1,0 +1,10 @@
+@prefix snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>.
+@prefix snvocHttps: <https://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+snvoc:hasCreator owl:sameAs snvocHttps:hasCreator.
+snvoc:content owl:sameAs snvocHttps:content.
+snvoc:creationDate owl:sameAs snvocHttps:creationDate.
+snvoc:id owl:sameAs snvocHttps:id.
+snvoc:Post owl:sameAs snvocHttps:Post.
+snvoc:Comment owl:sameAs snvocHttps:Comment.
