@@ -1,0 +1,44 @@
+PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
+SELECT ?personId ?firstName ?lastName WHERE {
+  <http://localhost:3000/pods/00000000000000000933/posts/2011-04-07#481036337190> snvoc:id ?messageId;
+    snvoc:hasCreator ?creator.
+  ?creator snvoc:id ?personId;
+    snvoc:firstName ?firstName;
+    snvoc:lastName ?lastName.
+}
+
+PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
+SELECT ?personId ?firstName ?lastName WHERE {
+  <http://localhost:3000/pods/00000000000000000933/posts/2012-08-05#1030792151112> snvoc:id ?messageId;
+    snvoc:hasCreator ?creator.
+  ?creator snvoc:id ?personId;
+    snvoc:firstName ?firstName;
+    snvoc:lastName ?lastName.
+}
+
+PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
+SELECT ?personId ?firstName ?lastName WHERE {
+  <http://localhost:3000/pods/00000024189255811254/comments/2012-07-20#1030792151059> snvoc:id ?messageId;
+    snvoc:hasCreator ?creator.
+  ?creator snvoc:id ?personId;
+    snvoc:firstName ?firstName;
+    snvoc:lastName ?lastName.
+}
+
+PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
+SELECT ?personId ?firstName ?lastName WHERE {
+  <http://localhost:3000/pods/00000000000000000933/posts/2012-08-05#1030792151110> snvoc:id ?messageId;
+    snvoc:hasCreator ?creator.
+  ?creator snvoc:id ?personId;
+    snvoc:firstName ?firstName;
+    snvoc:lastName ?lastName.
+}
+
+PREFIX snvoc: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
+SELECT ?personId ?firstName ?lastName WHERE {
+  <http://localhost:3000/pods/00000000000000000933/posts/2011-04-07#481036337192> snvoc:id ?messageId;
+    snvoc:hasCreator ?creator.
+  ?creator snvoc:id ?personId;
+    snvoc:firstName ?firstName;
+    snvoc:lastName ?lastName.
+}

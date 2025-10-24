@@ -1,12 +1,3 @@
 {
-    "data": [
-        [
-            "../config/config-schema-alignment.json",
-            "schema_alignment"
-        ],
-        [
-            "../config/config-solid-default.json",
-            "default"
-        ]
-    ]
+  "data": [["../config/config-schema-alignment.json", "schema_alignment"]]
 }

@@ -9,7 +9,7 @@
     "ccqs:config/context-preprocess/actors.json",
     "ccqslt:config/context-preprocess/actors.json",
     "ccqs:config/context-preprocess/mediators.json",
-    "ccqslt:config/extract-links/mediators.json",
+    "mediators.json",
     "ccqs:config/expression-evaluator-factory/actors.json",
     "ccqs:config/expression-evaluator-factory/mediators.json",
     "ccqs:config/function-factory/actors.json",
@@ -39,7 +39,6 @@
     "hypermedia.json",
     "ccqs:config/query-source-identify/actors/rdfjs.json",
     "ccqs:config/query-source-identify/actors/serialized.json",
-
 
     "ccqs:config/query-source-identify/mediators.json",
     "ccqs:config/query-source-identify-hypermedia/actors.json",

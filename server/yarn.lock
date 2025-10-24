@@ -6324,7 +6324,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"n3@npm:^1.16.3, n3@npm:^1.17.0, n3@npm:^1.17.1, n3@npm:^1.26.0, n3@npm:^1.6.3":
+"n3@npm:^1.16.3, n3@npm:^1.17.0, n3@npm:^1.17.1, n3@npm:^1.6.3":
   version: 1.26.0
   resolution: "n3@npm:1.26.0"
   dependencies:
@@ -6734,7 +6734,7 @@ __metadata:
 
 "rdf-dataset-fragmenter@file:./rdf-dataset-fragmenter.js::locator=server%40workspace%3A.":
   version: 2.9.0
-  resolution: "rdf-dataset-fragmenter@file:./rdf-dataset-fragmenter.js#./rdf-dataset-fragmenter.js::hash=9d8643&locator=server%40workspace%3A."
+  resolution: "rdf-dataset-fragmenter@file:./rdf-dataset-fragmenter.js#./rdf-dataset-fragmenter.js::hash=59cdf6&locator=server%40workspace%3A."
   dependencies:
     "@rdfjs/types": "npm:*"
     "@types/async-lock": "npm:^1.4.0"
@@ -6747,7 +6747,6 @@ __metadata:
     imurmurhash: "npm:^0.1.4"
     lru-cache: "npm:^10.3.0"
     mkdirp: "npm:^3.0.1"
-    n3: "npm:^1.26.0"
     rdf-parse: "npm:^3.0.0"
     rdf-serialize: "npm:^3.0.0"
     rdf-string: "npm:^1.6.0"
@@ -6756,7 +6755,7 @@ __metadata:
     stream-to-string: "npm:^1.0.0"
   bin:
     rdf-dataset-fragmenter: bin/runner.js
-  checksum: 10/92446d27f9e485b356ec43132515a381e0e5df431484e7117d8f5e93467d677c856f2b8be53aa3fe10250c39d3de5c8c29ea6471b5137ec2abba5646e40f9ef4
+  checksum: 10/b4edcb0b768b272d7decfc773d757ccb37a582d1d47bf8b819b7814496833899fbe925c0aa76b6833f01879ade674649b25489abdf1efdcb4de34237af398c1b
   languageName: node
   linkType: hard
 

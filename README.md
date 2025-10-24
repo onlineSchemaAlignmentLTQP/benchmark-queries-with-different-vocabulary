@@ -11,7 +11,7 @@ Has only been tested on Linux
 
 ## Installation
 
-Make sure that all the submodules [are correctly installed](https://git-scm.com/book/en/v2/Git-Tools-Submodules) 
+Make sure that all the submodules [are correctly installed](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
 ## Running the experiment
 
@@ -38,7 +38,7 @@ second run, the benchmark runner
 ```sh
 pushd ./simple-solidbench-comunica-runner
     yarn install
-    yarn node index.mjs -q ../queries -c ../config.json -r 50 -e ../simple-comunica-runner/index.mjs -o ../results -n "standard-shape-index-experiment" &> ../results/log
+    yarn node index.mjs --rules -q ../queries -c ../config.json -r 50 -e ../simple-comunica-runner/index.mjs -o ../results -n "schema-alignment-different-queries" &> ../results/log
 popd
 ```
 
