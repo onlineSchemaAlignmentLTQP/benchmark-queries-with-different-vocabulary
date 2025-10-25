@@ -2,6 +2,7 @@
 @prefix snvocv2: <http://localhost:3000/www.ldbc.eu/ldbc_socialnet/2.0/vocabulary/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 
+snvocv1:Person owl:sameAs snvocv2:Person.
 snvocv1:id owl:sameAs snvocv2:id.
 snvocv1:firstName owl:sameAs snvocv2:firstName.
 snvocv1:lastName owl:sameAs snvocv2:lastName.
